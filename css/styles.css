@@ -1,0 +1,255 @@
+@import url(http://fonts.googleapis.com/css?family=Kite+One);
+@import url(http://fonts.googleapis.com/css?family=Life+Savers);
+/* line-height may help closeness of lines #FFC409 reset CSS file to reset browser default styling to a consistent starting point */
+@import url(reset.css);
+
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+ 	background-color: #9480E8;
+ 	font-family: 'Kite One', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+header {
+	font-size: 25px;
+	font-family: 'Life Savers', sans-serif;
+	margin: 5px;
+}
+
+nav {
+	margin-bottom: 10px;
+	clear: both;
+}
+
+nav ul {
+	background-color: #FFB406;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0px;
+	font-size: 25px;
+}
+
+nav a{
+	display: inline-block;
+	color: #FFF;
+	font-weight: bold;
+	margin: 15px;
+}
+
+nav a:link,
+nav a:visited {
+	text-decoration: none;
+}
+
+nav li:hover {
+	background-color: #FF9A40;
+	border-radius: 5px;
+}
+
+iframe{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+ul {
+	text-align: center;
+}
+
+footer {
+	font-size: 80%;
+	padding:.5em;
+	font-style: italic;
+	border-style: solid;
+	border-top: thin double #d3d3d3;
+	margin-top: 50px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+footer:hover {
+    background-color: rgb(255,149,64);    
+}
+
+.content {
+	padding: 10px;
+	margin: 0 auto;
+	width: 80%;
+	background-color: #FFF;
+	border: 10px solid #FFB406;
+}
+
+.motto {
+	font-family: 'Kite One', sans-serif;
+	margin: 5px;
+	text-align: center;
+}
+
+.menu-heading {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Life Savers', sans-serif;
+	color: #FFB406;
+	margin: 20px;
+}
+
+.menu-header {
+	font-size: 180%;
+	color: #FFB406;
+	text-align: center;
+	margin: 5px;
+	font-family: 'Life Savers', sans-serif;
+}
+
+.menu-content {
+	font-size: 20px;
+}
+
+.menu-column{
+	float: left;
+	width: 45%;
+}
+
+.col {
+	float: left;
+	width: 33%;
+}
+
+.row {
+	clear: both;
+}
+
+
+.info-title{
+	text-decoration: underline;
+	font-size: 25px;
+	text-align: center;
+}
+
+.info{
+	text-align: center;
+	padding-top: 15px;
+
+}
+
+.single-row{
+	clear: both;
+	text-align: center;
+}
+
+.sub-header {
+	font-size: 50px;
+	color: #FFB406;
+	text-align: center;
+	margin: 30px;
+	font-family: 'Life Savers', sans-serif;
+}
+
+.name {
+	text-decoration: underline;
+	margin-bottom: 5px;
+	color: #000;
+	font-family: "Kite One";
+	font-size: 20px;
+	text-align: center;
+}
+
+.description {
+	font-size: 15px;
+	margin-top: 0px;
+	color: #000;
+	font-family: "Kite One";
+	text-align: center;	
+}
+
+.prices{
+	font-size: 15px;
+	margin-top: 0px;
+	color: #000;
+	font-family: "Kite One";
+	text-align: center;
+}
+
+.price {
+	font-size: 15px;
+	margin-top: 0px;
+	color: #000;
+	font-family: "Kite One";
+	text-align: center;
+}
+
+.logo {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+
+.top-image {
+	height: 250px;
+	width: 98%;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.body-text{
+	text-align: center;
+	margin: 35px;
+}
+
+.note {
+	text-align: center;
+	font-weight: bolder;
+	margin: 5px;
+}
+
+.external-link{
+	margin: 0px;
+	text-decoration: none;
+}
+
+.template {
+	display: none;
+}
+
+@media (max-width: 767px) {
+    .content-box {
+        width: 100%;
+    }
+
+    .motto{
+        display: none;
+    }
+
+    .col {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu-column {
+        float: none;
+        width: 100%;
+        text-align: center;   	
+    }
+}
+
+@media (max-width: 479px) {
+    body {
+        font-size: 16px;
+    }
+}
