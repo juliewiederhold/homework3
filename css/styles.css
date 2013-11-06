@@ -80,10 +80,6 @@ footer {
 	text-align: center;
 }
 
-footer:hover {
-    background-color: rgb(255,149,64);    
-}
-
 .content {
 	padding: 10px;
 	margin: 0 auto;
@@ -98,18 +94,20 @@ footer:hover {
 	text-align: center;
 }
 
-.menu-heading {
+/*.menu-heading {
 	text-align: center;
 	font-size: 50px;
 	font-family: 'Life Savers', sans-serif;
 	color: #FFB406;
 	margin: 20px;
-}
+}*/
 
 .menu-header {
 	font-size: 180%;
 	color: #FFB406;
 	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
 	margin: 5px;
 	font-family: 'Life Savers', sans-serif;
 }
@@ -159,37 +157,24 @@ footer:hover {
 	font-family: 'Life Savers', sans-serif;
 }
 
+.type {
+	text-align: center;
+}
 .name {
 	text-decoration: underline;
 	margin-bottom: 5px;
 	color: #000;
 	font-family: "Kite One";
 	font-size: 20px;
-	text-align: center;
 }
 
-.description {
-	font-size: 15px;
-	margin-top: 0px;
-	color: #000;
-	font-family: "Kite One";
-	text-align: center;	
-}
-
-.prices{
-	font-size: 15px;
-	margin-top: 0px;
-	color: #000;
-	font-family: "Kite One";
-	text-align: center;
-}
-
+.description,
+.prices,
 .price {
 	font-size: 15px;
 	margin-top: 0px;
 	color: #000;
 	font-family: "Kite One";
-	text-align: center;
 }
 
 .logo {
