@@ -106,8 +106,6 @@ footer {
 	font-size: 180%;
 	color: #FFB406;
 	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
 	margin: 5px;
 	font-family: 'Life Savers', sans-serif;
 }
@@ -125,6 +123,11 @@ footer {
 	margin-top: 50px;
 	float: left;
 	width: 33%;
+}
+
+.colMenu {
+	float:left;
+	width: 50%;
 }
 
 .row {

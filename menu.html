@@ -34,10 +34,22 @@
 			<p class="note">All pizzas can be customized:</p>
 			<p class="note">Add a few ingredients, or take a few off for an extra $2.</p>
 
-			<p class=".menu-header">Pizzas</p>
 			
  <!-- container for the generated menu  entries -->
-            <div class="menu-content"></div>
+            <div class="menu-content">
+            	<h2 class="menu-header">Pizzas</h2>
+            	<div class="pizzas"></div>
+            	
+            	<div class="colMenu">
+            		<h2 class="menu-header">Drinks</h2>
+            		<div class="drinks"></div>
+            	</div>
+            	<div class="colMenu">
+            		<h2 class="menu-header">Desserts</h2>
+            		<div class="dessert"></div>
+            	</div>
+            	<div class="row"></div>
+            </div>
 
             <!-- template card for each entry
              this will not be displayed, only used by code -->
@@ -54,7 +66,8 @@
                 </div>
             </div>
 
-            <h2 class=".menu-header">Drinks and Desserts</h2>
+            
+          	
             <div class="template drinks-dessert">
                 <div class="type">
                 	<span class="name"></span> :

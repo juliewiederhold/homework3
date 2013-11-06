@@ -12,7 +12,9 @@ function render(menu){
     var drinks;
     var dessert;
 
-    var content = $('.menu-content');
+    var pizzasContainer = $(".menu-content .pizzas");
+    var drinksContainer = $(".menu-content .drinks");
+    var dessertsContainer = $(".menu-content .dessert");
     for (idx = 0; idx < menu.pizzas.length; ++idx) {
         var clonePizza = templatePizza.clone();
 
@@ -24,7 +26,7 @@ function render(menu){
         clonePizza.find('.medium').html(pizza.prices[1]);
         clonePizza.find('.large').html(pizza.prices[2]);
 
-        content.append(clonePizza);
+        pizzasContainer.append(clonePizza);
         clonePizza.removeClass('template');
     }
 
@@ -35,7 +37,7 @@ function render(menu){
         cloneDrinks.find('.name').html(drinks.name);
         cloneDrinks.find('.price').html(drinks.price);
 
-        content.append(cloneDrinks);
+        drinksContainer.append(cloneDrinks);
         cloneDrinks.removeClass('template');
     }
 
@@ -46,7 +48,7 @@ function render(menu){
         cloneDessert.find('.name').html(dessert.name);
         cloneDessert.find('.price').html(dessert.price);
 
-        content.append(cloneDessert);
+        dessertsContainer.append(cloneDessert);
         cloneDessert.removeClass('template');
     }
 }
