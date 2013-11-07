@@ -102,30 +102,15 @@ footer {
 	font-family: 'Life Savers', sans-serif;
 }
 
-.menu-content {
-	font-size: 20px;
-}
-
-.menu-column{
-	float: left;
-	width: 45%;
-}
-
 .col {
 	margin-top: 50px;
 	float: left;
 	width: 33%;
 }
 
-.colMenu {
-	float:left;
-	width: 50%;
-}
-
 .row {
 	clear: both;
 }
-
 
 .info-title{
 	text-decoration: underline;
@@ -136,7 +121,6 @@ footer {
 .info{
 	text-align: center;
 	padding-top: 15px;
-
 }
 
 .single-row{
@@ -155,21 +139,25 @@ footer {
 .type {
 	text-align: center;
 }
+
 .name {
 	text-decoration: underline;
 	margin-bottom: 5px;
 	color: #000;
-	font-family: "Kite One";
 	font-size: 20px;
 }
 
 .description,
-.prices,
-.price {
+.prices {
 	font-size: 15px;
 	margin-top: 0px;
 	color: #000;
-	font-family: "Kite One";
+}
+
+.price {
+	margin-bottom: 5px;
+	color: #000;
+	font-size: 20px;
 }
 
 .logo {
@@ -185,6 +173,12 @@ footer {
 	display: block;
 	margin-left: auto;
     margin-right: auto;
+}
+
+.menu-pic {
+ width:80%;
+ border: 5px;
+ border: 5px solid #FFB406;
 }
 
 .body-text{

@@ -15,6 +15,7 @@ function render(menu){
     var pizzasContainer = $(".menu-content .pizzas");
     var drinksContainer = $(".menu-content .drinks");
     var dessertsContainer = $(".menu-content .dessert");
+    
     for (idx = 0; idx < menu.pizzas.length; ++idx) {
         var clonePizza = templatePizza.clone();
 
